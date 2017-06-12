@@ -1,0 +1,29 @@
+{
+  "name": "usbkey_config",
+  "version": "0.1.0",
+  "author": "Caius Durling",
+  "summary": "Manages GZ usb config on SmartOS.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/caius/puppet-usbkey_config",
+  "project_page": "https://github.com/caius/puppet-usbkey_config",
+  "issues_url": "https://github.com/caius/puppet-usbkey_config/issues",
+  "dependencies": [
+    { "name":"puppetlabs/stdlib","version_requirement":">= 4.6.0 < 5.0.0" }
+    { "name":"puppetlabs/concat","version_requirement":">= 2.2.1 < 3.0.0" }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "SmartOS",
+      "operatingsystemrelease": [
+        "5.11"
+      ]
+    },
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.2.0 < 5.0.0"
+    }
+  ],
+  "description": "Manage global zone usb config on SmartOS hypervisors."
+}
