@@ -1,4 +1,4 @@
-# `puppet-usbkey_config``
+# `puppet-usbkey_config`
 
 Quick little module to manage `/usbkey/config` & root authorized ssh keys for a standalone [SmartOS](https://www.joyent.com/smartos) hypervisor.
 
