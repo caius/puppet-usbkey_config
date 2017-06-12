@@ -1,0 +1,1 @@
+# puppet-usbkey_config
