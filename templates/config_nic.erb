@@ -1,0 +1,8 @@
+
+<%= @tagname || @name %>_nic=<%= @mac || @nic %>
+<%= @name %>_ip=<%= @ip %>
+<% if @netmask %><%= @name %>_netmask=<%= @netmask %><% end %>
+<% if @gateway %><%= @name %>_gateway=<%= @gateway %><% end %>
+<%- if @tagname == "admin" && @ip != "dhcp" -%>
+<%= @name %>_network=<%= IPAddr.new(@ip).mask(@netmask).to_s %>
+<%- end -%>
