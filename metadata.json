@@ -1,6 +1,6 @@
 {
   "name": "caius-usbkey_config",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Caius Durling",
   "summary": "Manages GZ usb config on SmartOS.",
   "license": "Apache-2.0",
